@@ -49,15 +49,19 @@ nav {
    margin: 15px 0px 15px 0px;
 }
 
-button {
+button, .section-four button {
    background-color: #3882f6;
    color: #F9FAF8;
    width: 125px;
    height: 30px;
-   border-radius: 10px;
+   border-radius: 5px;
    border: none;
    font-weight: 900;
    font-size: 15px;
+}
+
+button:hover {
+   cursor: pointer;
 }
 
 .image {
@@ -66,12 +70,20 @@ button {
    display: flex;
    justify-content: center;
    align-items: center;
+   text-align: center;
    background-color: #b7b7b7;
    margin-left: 50px;
 }
 
 .section-two {
-   padding: 50px 0px 90px 0px;
+   padding: 50px 0px 50px 0px;
+}
+
+.elements-container {
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   gap: 40px;
 }
 
 .random {
@@ -94,9 +106,48 @@ button {
    text-align: center;
 }
 
-.elements-container {
-   margin-top: 50px;
+.section-three {
+   background-color: #E5E7EB;
+   padding: 80px 300px 80px 300px; 
+}
+
+.quote {
+   font-weight: 300;
+   font-size: 36px;
+   color: #1F2937;
+   font-style: italic;
+}
+
+.quoter {
+   font-size: 25px;
+   font-weight: 900;
+   text-align: right;
+   margin-right: 15px;
+}
+
+footer {
+   background-color: #1F2937;
+   text-align: center;
+   padding: 40px;
+   color: #E5E7EB;
+}
+
+.section-four {
+   background-color: #3882f6;
+   color: #E5E7EB;
    display: flex;
-   justify-content: center;
-   gap: 40px;
+   justify-content: space-between;
+   margin: 80px 210px;
+   padding: 50px;
+}
+
+.call-to-action {
+   font-weight: 900;
+   font-size: 24px;
+   margin-bottom: 5px;
+}
+
+.section-four button {
+   border: 2px solid #E5E7EB;
+   margin-top: 15px;
 }
