@@ -29,7 +29,6 @@ nav {
    color: #b7b7b7;
 }
 
-
 .section-one {
    background-color: #1F2937;
    display: flex;
@@ -48,6 +47,21 @@ nav {
    margin: 15px 0px;
 }
 
+.image {
+   width: 550px;
+   height: 235px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #b7b7b7;
+   flex-shrink: 0;
+}
+
+.contents {
+   margin-right: 145px;
+}
+
 button {
    background-color: #3882f6;
    color: #F9FAF8;
@@ -58,17 +72,6 @@ button {
    font-weight: 900;
    font-size: 15px;
    cursor: pointer;
-}
-
-.image {
-   width: 1000px;
-   height: 235px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   background-color: #b7b7b7;
-   margin-left: 230px;
 }
 
 .section-two {
@@ -97,14 +100,14 @@ button {
 }
 
 .subtext.two {
-   margin-top: 10px;
+   margin: 10px 0px 80px 0px;
    color: #818181;
    text-align: center;
 }
 
 .section-three {
    background-color: #E5E7EB;
-   padding: 80px 300px 80px 300px; 
+   padding: 80px 380px;
 }
 
 .quote {
@@ -118,7 +121,7 @@ button {
    font-size: 25px;
    font-weight: 900;
    text-align: right;
-   margin-right: 15px;
+   margin: 15px 15px 0px 0px;
 }
 
 .section-four {
