@@ -9,9 +9,8 @@ nav {
    display: flex;
    background-color: #1F2937;
    color: #F9FAF8;
-   padding: 5px;
    justify-content: space-between;
-   padding: 0px 200px 0px 200px;
+   padding: 20px 210px;
 }
 
 .logo {
@@ -20,7 +19,6 @@ nav {
    display: flex;
    justify-content: center;
    align-items: center;
-   margin: 15px;
 }
 
 .header-container {
@@ -31,10 +29,11 @@ nav {
    color: #b7b7b7;
 }
 
+
 .section-one {
    background-color: #1F2937;
    display: flex;
-   padding: 150px 200px 150px 210px;
+   padding: 145px 210px;
 }
 
 .awesome {
@@ -43,13 +42,13 @@ nav {
    color: #F9FAF8;
 }
 
-.contents .subtext {
+.subtext.one, .subtext.two {
    font-size: 18px;
    color: #b7b7b7;
-   margin: 15px 0px 15px 0px;
+   margin: 15px 0px;
 }
 
-button, .section-four button {
+button {
    background-color: #3882f6;
    color: #F9FAF8;
    width: 125px;
@@ -60,10 +59,6 @@ button, .section-four button {
    font-size: 15px;
 }
 
-button:hover {
-   cursor: pointer;
-}
-
 .image {
    width: 1000px;
    height: 235px;
@@ -72,18 +67,11 @@ button:hover {
    align-items: center;
    text-align: center;
    background-color: #b7b7b7;
-   margin-left: 50px;
+   margin-left: 230px;
 }
 
 .section-two {
-   padding: 50px 0px 50px 0px;
-}
-
-.elements-container {
-   margin-top: 50px;
-   display: flex;
-   justify-content: center;
-   gap: 40px;
+   padding: 50px 0px;
 }
 
 .random {
@@ -93,6 +81,13 @@ button:hover {
    text-align: center;
 }
 
+.elements-container {
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+}
+
 .element .shapes {
    width: 165px;
    height: 165px;
@@ -100,7 +95,7 @@ button:hover {
    border-radius: 20px;
 }
 
-.element .subtext {
+.subtext.two {
    margin-top: 10px;
    color: #818181;
    text-align: center;
@@ -147,7 +142,11 @@ footer {
    margin-bottom: 5px;
 }
 
-.section-four button {
+.button.two {
    border: 2px solid #E5E7EB;
    margin-top: 15px;
+}
+
+button:hover {
+   cursor: pointer;
 }
